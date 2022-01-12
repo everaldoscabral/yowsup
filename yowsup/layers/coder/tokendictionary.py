@@ -243,7 +243,7 @@ class TokenDictionary:
         ]
 
         self.secondaryDictionary = [
-            'lg',
+           'lg',
             'lc',
             's_t',
             's_o',
@@ -1289,3 +1289,4 @@ class TokenDictionary:
             return (self.secondaryDictionary.index(token), True)
 
         return None
+
